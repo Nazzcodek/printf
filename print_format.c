@@ -33,8 +33,7 @@ int _print_format(const char *format, va_list args)
 		else
 		{
 			count += _write(format[i]);
-		}
-		
+		}		
 		i++;
 	}
 	return (count);
